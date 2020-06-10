@@ -46,6 +46,6 @@
 -(id)presentationControllerForPresentedViewController:(id)arg1 presentingViewController:(id)arg2 sourceViewController:(id)arg3 ;
 -(void)viewDidLayoutSubviews;
 -(id)completionHandler;
--(void)setCompletionHandler:(id)arg1 ;
+-(void)setCompletionHandler:((nullable void (^)(NSError * _Nullable error)))arg1 ;
 @end
 
